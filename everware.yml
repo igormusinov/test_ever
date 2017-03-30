@@ -4,7 +4,7 @@ container:
  ssl:
  - "enabled"
  volumes: 
- - "http://www.cern.ch"
+ - "http://lib.mipt.ru/book/252244/Regge-Introduction-to-relativity-CERN-lectures.djvu"
  ports:
  - "8000:8000"
  environment:
