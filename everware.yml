@@ -3,7 +3,7 @@ container:
  image: "container tag"
  ssl:
  - "enabled"
- volumes: 
+ data: 
  - "http://lib.mipt.ru/book/252244/Regge-Introduction-to-relativity-CERN-lectures.djvu"
  ports:
  - "8000:8000"
