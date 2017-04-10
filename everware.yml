@@ -2,13 +2,10 @@ container:
  build: .
  image: "container tag"
  data: 
- - "http://lib.mipt.ru/book/252244/Regge-Introduction-to-relativity-CERN-lectures.djvu"
-  ssl_manually:
-  - "true"
+ - {url: "http://lib.mipt.ru/book/252244/Regge-Introduction-to-relativity-CERN-lectures.djvu", ssl: "true"}
  - "root://172.17.0.3//tmp/xrootdpyfs/"
  ports:
  - "8000:8000"
  environment:
  - TOKEN=token
  env_file: .env
-
